@@ -93,6 +93,19 @@ or simply
 
 if you prefer to use a stable version.
 
+## How I set this up.
+clone repo
+
+```
+cd autorandr
+make deb
+sudo gdebi autorandr...
+autorandr --save docked
+#unplug things
+autorandr --save moble
+#plug things back in
+```
+
 ## How to use
 
 Save your current display configuration and setup with:
